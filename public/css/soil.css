@@ -34,8 +34,8 @@ html[data-palette="ink"]{
 }
 
 :root{
-  --serif:'Cormorant Garamond',Georgia,serif;
-  --sans:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+  --serif:'Cormorant Garamond','Noto Serif KR',Georgia,serif;
+  --sans:'Inter','Noto Serif KR',-apple-system,BlinkMacSystemFont,sans-serif;
 }
 
 *{margin:0;padding:0;box-sizing:border-box;}
@@ -139,6 +139,7 @@ section{padding:64px 0;}
 .about-body p{font-family:var(--serif);font-size:19px;line-height:1.62;color:var(--slate);margin-bottom:20px;}
 .about-body p:last-child{margin-bottom:0;}
 .about-body .lead{color:var(--ink);}
+.ko{font-family:'Noto Serif KR',serif;}
 .about-body .ko{font-style:normal;font-weight:500;color:var(--ink);}
 .about-meta{
   display:flex;justify-content:center;gap:52px;flex-wrap:wrap;
