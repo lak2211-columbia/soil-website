@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.local
+.dev/
+public/uploads/
+.vercel/
+.DS_Store
+.vercel
+.env*
+!.env.example

@@ -1,0 +1,22 @@
+{
+  "name": "soil-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "SOIL magazine: framework-free public site and custom admin.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node --watch dev/server.js",
+    "db:start": "node dev/db.js start",
+    "db:stop": "node dev/db.js stop",
+    "db:migrate": "node db/migrate.js",
+    "db:seed": "node db/seed.js",
+    "check": "node --check api/*.js lib/*.js lib/render/*.js db/*.js dev/*.js"
+  },
+  "dependencies": {
+    "@vercel/blob": "^2.9.0",
+    "postgres": "^4.1.0"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "npm install",
+  "outputDirectory": "public",
+  "rewrites": [
+    { "source": "/", "destination": "/api/site?p=/" },
+    { "source": "/stories/:slug", "destination": "/api/site?p=/stories/:slug" },
+    { "source": "/issues", "destination": "/api/site?p=/issues" },
+    { "source": "/issues/:number", "destination": "/api/site?p=/issues/:number" },
+    { "source": "/contributors/:slug", "destination": "/api/site?p=/contributors/:slug" },
+    { "source": "/unsubscribe", "destination": "/api/site?p=/unsubscribe" },
+    { "source": "/admin", "destination": "/admin/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+      ]
+    },
+    {
+      "source": "/admin(.*)",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex" },
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "Cache-Control", "value": "no-cache" }
+      ]
+    },
+    {
+      "source": "/api/admin",
+      "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }]
+    }
+  ],
+  "functions": {
+    "api/*.js": { "maxDuration": 60 }
+  }
+}

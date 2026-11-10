@@ -1,0 +1,11 @@
+# Keep local-only files out of `vercel deploy` uploads.
+.dev/
+.env
+.env.*
+!.env.example
+public/uploads/
+node_modules/
+.claude/
+design/
+push.sh
+.DS_Store

@@ -8,8 +8,20 @@ built from, and the three places where a culture quietly keeps itself.
 
 ## What's here
 
-The whole site is one self-contained file, `index.html`. No build step, no dependencies.
-Open it in a browser and it runs.
+A hand-built magazine site and its own editor, with no framework and no build step.
+
+- **The magazine**: pages rendered on Vercel from a Postgres database. The current issue on the
+  homepage, a page for every story, an archive of past issues, and contributor pages.
+- **The editor** at `/admin`: write stories in a block editor (paragraphs, subheadings, pull
+  quotes, Q&A, images, dividers), arrange each issue, manage contributors and the site's text, and
+  write and send *The SOIL Letter* to subscribers.
+
+```bash
+npm install
+npm run dev      # http://127.0.0.1:3000 · editor at /admin
+```
+
+Deployment and environment variables: see `CLAUDE.md` and `.env.example`.
 
 ## Design
 
@@ -20,8 +32,8 @@ so one click recolours accents, hairlines, tags, photo grading and the header to
 
 Porcelain & Celadon · Hanji & Persimmon · Bojagi Indigo · Pine & Clay · Ink (dark)
 
-To ship a single scheme, delete the other four blocks at the top of the stylesheet along with the
-`.palette-bar` markup and its click handler.
+To ship a single scheme, delete the other four blocks at the top of `public/css/soil.css` and the
+`paletteBar` markup in `lib/render/layout.js`.
 
 ## Imagery
 
