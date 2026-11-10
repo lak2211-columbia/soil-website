@@ -7,6 +7,7 @@ export default {
     "site": {
       "title": "SOIL",
       "taglineKo": "소소한 일상",
+      "comingSoon": "First issue coming soon",
       "description": "SOIL — 소소한 일상. A magazine of the ordinary, organised around 의식주.",
       "footerTagline": "소소한 일상 — the small, ordinary day, and the soil a Korean life grows from.",
       "nav": [
@@ -153,12 +154,8 @@ export default {
       ],
       "position": 0,
       "dek": "Once dismissed as plain, the white porcelain *dalhangari* is being reclaimed by a new generation of Korean makers — as an heirloom, a horizon, and a quiet argument for imperfection.",
-      "art": "moon-jar",
-      "photos": [
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Moon_jar._18thC.Joseon_Dynasty.British_Museum.jpg?width=1400",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/White_Porcelain_Moon_Jar_%28National_Treasure_No._262%29_02.jpg?width=1400",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Moon_jar%2C_Korea%2C_Joseon_dynasty%2C_1650-1750%2C_porcelain_with_clear_glaze_-_Asian_Art_Museum_-_San_Francisco%2C_CA_-_DSC07365.jpg?width=1400"
-      ],
+      "art": "",
+      "photos": [],
       "photoAlt": "A Joseon white porcelain moon jar"
     },
     {
@@ -167,11 +164,8 @@ export default {
       "section": "home",
       "category": "",
       "position": 0,
-      "art": "thumb-hanok",
-      "photos": [
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Traditional_hanok_house_with_wooden_doors_along_a_steeply_sloping_street_in_Bukchon_Hanok_Village_Seoul.jpg?width=400",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Interior_of_a_traditional_Korean_house.JPG?width=400"
-      ],
+      "art": "",
+      "photos": [],
       "photoAlt": "A hanok in Bukchon Hanok Village, Seoul"
     },
     {
@@ -180,11 +174,8 @@ export default {
       "section": "food",
       "category": "",
       "position": 0,
-      "art": "thumb-hangwa",
-      "photos": [
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Korean_hangwa-Yakgwa-Yugwa-Tea-01.jpg?width=400",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Korean.food-Yakgwa-01.jpg?width=400"
-      ],
+      "art": "",
+      "photos": [],
       "photoAlt": "Hangwa with tea"
     },
     {
@@ -193,11 +184,8 @@ export default {
       "section": "home",
       "category": "Craft",
       "position": 0,
-      "art": "thumb-onggi",
-      "photos": [
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Jangdokdae_Gyeongbokgung.JPG?width=400",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Korea-Hanok-Jars-Kimchi-01.jpg?width=400"
-      ],
+      "art": "",
+      "photos": [],
       "photoAlt": "Onggi jars at a jangdokdae"
     },
     {
@@ -211,12 +199,8 @@ export default {
       "readMinutes": 18,
       "position": 1,
       "dek": "The novelist on writing across a century, the ethics of the long book, and why she distrusts a tidy ending.",
-      "art": "portrait-min-jin-lee",
-      "photos": [
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Min_Jin_Lee.jpg?width=500",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Min_Jin_Lee_2018.jpg?width=500",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Min_Jin_Lee_%282018%29.jpg?width=500"
-      ],
+      "art": "",
+      "photos": [],
       "photoAlt": "Portrait — Min Jin Lee"
     },
     {
@@ -229,10 +213,8 @@ export default {
       "readMinutes": 14,
       "position": 2,
       "dek": "Two decades on, the chef reconsiders ambition, fermentation, and cooking for one's own table.",
-      "art": "portrait-david-chang",
-      "photos": [
-        "https://commons.wikimedia.org/wiki/Special:FilePath/David_Chang_David_Shankbone_2010.jpg?width=500"
-      ],
+      "art": "",
+      "photos": [],
       "photoAlt": "Portrait — David Chang"
     },
     {
@@ -245,12 +227,8 @@ export default {
       "readMinutes": 16,
       "position": 3,
       "dek": "On playing women who refuse to be minor, the pause before a line, and the years that don't make the montage.",
-      "art": "portrait-sandra-oh",
-      "photos": [
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Sandra_Oh_2016.jpg?width=500",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Sandra_Oh_2011.jpg?width=500",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Sandra_Oh_at_Walk_of_Fame.jpg?width=500"
-      ],
+      "art": "",
+      "photos": [],
       "photoAlt": "Portrait — Sandra Oh"
     },
     {
@@ -263,12 +241,8 @@ export default {
       "readMinutes": 12,
       "position": 4,
       "dek": "From the stage to the boardroom, the artist on label-building, the listening ear, and making room for the next voice.",
-      "art": "portrait-jay-park",
-      "photos": [
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Jay_Park_2015.jpg?width=500",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Jay_Park.jpg?width=500",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Jay_Park_performing_shirtless.jpg?width=500"
-      ],
+      "art": "",
+      "photos": [],
       "photoAlt": "Portrait — Jay Park"
     },
     {
@@ -277,12 +251,8 @@ export default {
       "section": "food",
       "position": 1,
       "dek": "How hangwa — pressed, fried, honeyed — keeps the slow calendar of the Korean year.",
-      "art": "hangwa",
-      "photos": [
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Korean_hangwa-Yakgwa-Yugwa-Tea-01.jpg?width=800",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Korean_hangwa-Maejakgwa_and_jeonggwa.jpg?width=800",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Korean_hangwa-Jeonggwa-01.jpg?width=800"
-      ],
+      "art": "",
+      "photos": [],
       "photoAlt": "Hangwa — yakgwa, yugwa and jeonggwa"
     },
     {
@@ -291,12 +261,8 @@ export default {
       "section": "food",
       "position": 2,
       "dek": "The barbecue table as Korea's most enduring lesson in eating together, slowly.",
-      "art": "grill",
-      "photos": [
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Korean_barbecue-Jeju_Island-Bulgogi-01.jpg?width=800",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Korean_barbeque-Galbi-05.jpg?width=800",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Myeong_Ryun_Jinsa_Galbi6.jpg?width=800"
-      ],
+      "art": "",
+      "photos": [],
       "photoAlt": "Korean barbecue on the grill"
     },
     {
@@ -305,12 +271,8 @@ export default {
       "section": "food",
       "position": 3,
       "dek": "Jangajji, the pantry's quiet insurance — a season pressed into jars against the lean months.",
-      "art": "jangajji",
-      "photos": [
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Korean_pickle-Doenjang_gochu_jangajji-01.jpg?width=800",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Chamoe-jangajji.jpg?width=800",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Myeongi-jangajji.jpg?width=800"
-      ],
+      "art": "",
+      "photos": [],
       "photoAlt": "Jangajji — vegetables preserved in soy and brine"
     },
     {
@@ -319,11 +281,8 @@ export default {
       "section": "food",
       "position": 4,
       "dek": "The bueok — where the fire, the cauldron and the day's first bowl of rice all shared one room.",
-      "art": "old-kitchen",
-      "photos": [
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Bueok%2C_Gwangju_Folk_Museum.jpg?width=800",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Interior_of_a_traditional_Korean_house.JPG?width=800"
-      ],
+      "art": "",
+      "photos": [],
       "photoAlt": "A bueok, the traditional Korean kitchen"
     },
     {
@@ -336,11 +295,8 @@ export default {
       ],
       "position": 1,
       "dek": "The bilingual life as a design problem — how a single voice holds two scripts in one breath.",
-      "art": "two-alphabets",
-      "photos": [
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Korean_calligraphy-Hangul-01.jpg?width=800",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Korean_calligraphy%2C_Budapest.jpg?width=800"
-      ],
+      "art": "",
+      "photos": [],
       "photoAlt": "Hangul brush calligraphy"
     },
     {
@@ -353,11 +309,8 @@ export default {
       ],
       "position": 2,
       "dek": "On 뿌리, belonging, and the weight a single syllable can carry — the soil a name grows from.",
-      "art": "root",
-      "photos": [
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Hunmin_jeong-eum.jpg?width=800",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Hunminjeongum.jpg?width=800"
-      ],
+      "art": "",
+      "photos": [],
       "photoAlt": "The Hunminjeongeum, the original promulgation of Hangul"
     },
     {
@@ -370,11 +323,8 @@ export default {
       ],
       "position": 3,
       "dek": "Home in two scripts — the search for a place that answers to the name at last.",
-      "art": "home",
-      "photos": [
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Interior_of_a_traditional_Korean_house.JPG?width=800",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Korea-Hanok-Jars-Kimchi-01.jpg?width=800"
-      ],
+      "art": "",
+      "photos": [],
       "photoAlt": "Interior of a traditional Korean house"
     }
   ]

@@ -57,6 +57,7 @@ export async function settingsView() {
       h('div.row', {},
         field('Site title', input({ value: site.title, oninput: bind(site, 'title', dirty) }), 'The logo text in the header and footer, until the drawn logo is in.'),
         field('Korean tagline', input({ value: site.taglineKo, oninput: bind(site, 'taglineKo', dirty) }))),
+      field('Issue line', input({ value: site.comingSoon ?? '', oninput: bind(site, 'comingSoon', dirty) }), 'Shown in place of the issue number and season across the site. Clear it to show the issue again.'),
       field('Description', textarea({ value: site.description, oninput: bind(site, 'description', dirty) }), 'Used by search engines and link previews.'),
       field('Footer tagline', textarea({ value: site.footerTagline, oninput: bind(site, 'footerTagline', dirty) })),
       h('span.label', {}, 'Header links'),
