@@ -12,15 +12,15 @@ export default {
       "footerTagline": "소소한 일상 — the small, ordinary day, and the soil a Korean life grows from.",
       "nav": [
         {
-          "label": "Dress",
+          "label": "衣",
           "href": "/#interviews"
         },
         {
-          "label": "Food",
+          "label": "食",
           "href": "/#food"
         },
         {
-          "label": "Home",
+          "label": "住",
           "href": "/#culture"
         },
         {

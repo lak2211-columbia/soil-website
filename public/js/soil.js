@@ -39,21 +39,6 @@
     els.forEach(function (e) { io.observe(e); });
   }
 
-  /* Palette switcher, remembered for this visitor. */
-  var buttons = document.querySelectorAll('.palette-bar .swatch');
-  function setPalette(p) {
-    document.documentElement.setAttribute('data-palette', p);
-    buttons.forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-p') === p ? 'true' : 'false'); });
-  }
-  try { var saved = localStorage.getItem('soil-palette'); if (saved) setPalette(saved); } catch (e) {}
-  buttons.forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      var p = btn.getAttribute('data-p');
-      setPalette(p);
-      try { localStorage.setItem('soil-palette', p); } catch (e) {}
-    });
-  });
-
   /* Newsletter signup without leaving the page (the form also works without JavaScript). */
   document.querySelectorAll('form[data-subscribe]').forEach(function (form) {
     var status = form.parentNode.querySelector('.news-status');
